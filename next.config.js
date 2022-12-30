@@ -2,6 +2,7 @@
 module.exports = {
     reactStrictMode: true,
     images: {
-        domains: ['links.papareact.com', 'miro.medium.com'],
+        domains: ['miro.medium.com'],
+        remotePatterns: [{ protocol: "https:", hostname: "**.medium.com", }, ],
     },
 }
