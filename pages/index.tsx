@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <div className="flex justify-between mx-auto items-center bg-yellow-400 border-y border-black py-10 lg:py-0  md:px-20">
+      <div className="flex justify-between mx-auto items-center bg-yellow-400 border-y border-black py-10 lg:py-0  md:px-20 lg:px-40">
         <div className="px-10 space-y-5">
           <h1 className="text-6xl max-w-xl font-serif">Stay curious.</h1>
           <h2>Discover stories, thinking, and expertise from writers on any topic.</h2>
